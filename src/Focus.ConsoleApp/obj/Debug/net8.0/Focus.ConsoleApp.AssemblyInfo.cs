@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Focus.Application")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Focus.ConsoleApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a3a3827f8b3f24abdaf6a7bd935707938276f4f")]
-[assembly: System.Reflection.AssemblyProductAttribute("Focus.Application")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Focus.Application")]
+[assembly: System.Reflection.AssemblyProductAttribute("Focus.ConsoleApp")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Focus.ConsoleApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
