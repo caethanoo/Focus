@@ -29,3 +29,4 @@
 /home/brenndacaethano/dev/FocusProject/backend/src/Focus.Infrastructure/obj/Debug/net8.0/refint/Focus.Infrastructure.dll
 /home/brenndacaethano/dev/FocusProject/backend/src/Focus.Infrastructure/obj/Debug/net8.0/Focus.Infrastructure.pdb
 /home/brenndacaethano/dev/FocusProject/backend/src/Focus.Infrastructure/obj/Debug/net8.0/ref/Focus.Infrastructure.dll
+/home/brenndacaethano/dev/FocusProject/backend/src/Focus.Infrastructure/obj/Debug/net8.0/Focus.Infrastructure.sourcelink.json

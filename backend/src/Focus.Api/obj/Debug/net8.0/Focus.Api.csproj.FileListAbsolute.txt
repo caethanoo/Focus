@@ -37,3 +37,4 @@
 /home/brenndacaethano/dev/FocusProject/backend/src/Focus.Api/obj/Debug/net8.0/Focus.Api.pdb
 /home/brenndacaethano/dev/FocusProject/backend/src/Focus.Api/obj/Debug/net8.0/Focus.Api.genruntimeconfig.cache
 /home/brenndacaethano/dev/FocusProject/backend/src/Focus.Api/obj/Debug/net8.0/ref/Focus.Api.dll
+/home/brenndacaethano/dev/FocusProject/backend/src/Focus.Api/obj/Debug/net8.0/Focus.Api.sourcelink.json

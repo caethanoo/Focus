@@ -21,3 +21,4 @@
 /home/brenndacaethano/dev/FocusProject/backend/src/Focus.Domain/obj/Debug/net8.0/refint/Focus.Domain.dll
 /home/brenndacaethano/dev/FocusProject/backend/src/Focus.Domain/obj/Debug/net8.0/Focus.Domain.pdb
 /home/brenndacaethano/dev/FocusProject/backend/src/Focus.Domain/obj/Debug/net8.0/ref/Focus.Domain.dll
+/home/brenndacaethano/dev/FocusProject/backend/src/Focus.Domain/obj/Debug/net8.0/Focus.Domain.sourcelink.json
