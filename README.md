@@ -37,15 +37,7 @@ O projeto foi construído seguindo os princípios da Arquitetura Limpa, dividind
 
     Swagger/OpenAPI (Documentação e testes da API)
 
-📊 Design do Banco de Dados
 
-Como responsável pela arquitetura de dados, projetei um esquema relacional focado em consistência e integridade, suportando:
-
-    Gestão de medicamentos e agendamento de doses.
-
-    Log de sintomas com histórico temporal.
-
-    Sincronização eficiente para o modelo Offline-first do mobile.
 
 🧠 Conceitos de Engenharia Aplicados
 
