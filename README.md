@@ -1,82 +1,56 @@
-# Focus – ADHD Medication Management App
+Focus – ADHD Medication Management (Backend)
 
-Focus is a mobile application designed to help people with ADHD manage their medication, track symptoms and maintain treatment consistency.
+O Focus é o backend de uma aplicação mobile desenvolvida para auxiliar pessoas com TDAH no gerenciamento de medicações e monitoramento de sintomas.
 
-The project was developed as part of a **Software Engineering course** in the Computer Engineering program at the Federal University of Sergipe (UFS).  
-It was built collaboratively in a **team development environment**, following software engineering practices and architectural design principles.
+Este repositório foca na implementação da API robusta desenvolvida em C# .NET, utilizando os princípios da Clean Architecture para garantir escalabilidade, testabilidade e independência de frameworks.
+🚀 Minha Contribuição Principal
 
-## Features
+Diferente da versão inicial em Flask, reestruturei e desenvolvi o core do backend focando em padrões de mercado:
 
-- Medication reminders
-- Dose logging
-- Symptom tracking
-- Treatment monitoring
-- Offline-first data storage
-- Data synchronization with cloud database
-- Reports and treatment history
+    Arquitetura: Implementação de Clean Architecture (Domain, Application, Infrastructure e WebAPI).
 
-## Tech Stack
+    Linguagem/Framework: C# com .NET 8 (ou sua versão atual).
 
-- React Native
-- SQLite (local storage)
-- MySQL (cloud database)
-- Flask API
-- AWS RDS
-- REST APIs
+    Persistência: Migração e modelagem do banco de dados relacional para MySQL.
 
-## Architecture
+🏗️ Arquitetura do Sistema
 
-The system follows **MVVM combined with Clean Architecture principles**.
+O projeto foi construído seguindo os princípios da Arquitetura Limpa, dividindo as responsabilidades em camadas:
 
-The mobile application works with an **offline-first approach**, storing data locally using SQLite and synchronizing with a remote MySQL database hosted on AWS RDS.
+    Domain: Entidades, interfaces e regras de negócio puras.
 
-This architecture allows the application to function even without internet access while ensuring that data can later be synchronized with the cloud backend.
+    Application: Casos de uso (Use Cases), DTOs e serviços de aplicação.
 
-## Database Design
+    Infrastructure: Implementação do Entity Framework Core, repositórios e integração com AWS RDS.
 
-The database architecture for this project was **fully designed as part of the development process**.
+    API: Controllers e configurações de injeção de dependência.
 
-Two databases are used:
+🛠️ Tech Stack (Backend)
 
-- **SQLite** – local database used by the mobile application for offline storage
-- **MySQL** – cloud database hosted on AWS RDS for centralized data storage and synchronization
+    .NET Core / C# (Linguagem e Framework principal)
 
-The relational schema was designed to support:
+    Entity Framework Core (ORM para mapeamento objeto-relacional)
 
-- medication management
-- dose logging
-- reminders and schedules
-- symptom tracking
-- user profiles
-- treatment history
+    MySQL (Banco de dados na nuvem via AWS )
 
-Special attention was given to **relational modeling, data consistency and synchronization between local and remote databases**.
+    LINQ (Para consultas otimizadas no banco)
 
-## Key Contributions
+    Swagger/OpenAPI (Documentação e testes da API)
 
-My contributions to the project included:
+📊 Design do Banco de Dados
 
-- Designing the relational database schema
-- Implementing the **MySQL cloud database**
-- Creating the **SQLite local database** for the offline-first architecture
-- Developing backend APIs using **Flask**
-- Integrating the mobile application with backend services
-- Supporting the system architecture design
+Como responsável pela arquitetura de dados, projetei um esquema relacional focado em consistência e integridade, suportando:
 
-## Learning Goals
+    Gestão de medicamentos e agendamento de doses.
 
-This project was developed to explore and apply concepts such as:
+    Log de sintomas com histórico temporal.
 
-- database modeling
-- mobile application architecture
-- API integration
-- offline-first system design
-- software engineering practices
-- collaborative development
+    Sincronização eficiente para o modelo Offline-first do mobile.
 
-## Future Improvements
+🧠 Conceitos de Engenharia Aplicados
 
-- synchronization optimization
-- analytics dashboard
-- improved data visualization
-- integration with healthcare professionals for treatment monitoring
+    SOLID: Aplicação rigorosa dos princípios para evitar acoplamento.
+
+    Repository Pattern: Para abstrair a lógica de acesso a dados.
+
+    Injeção de Dependência: Nativa do .NET para facilitar a manutenção e testes.
